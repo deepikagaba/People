@@ -1,0 +1,17 @@
+{
+  "name": "People",
+  "version": "1.0.0",
+  "description": "A MEAN app that allows users to manage people",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.2.25"
+  }
+}

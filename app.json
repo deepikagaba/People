@@ -1,0 +1,5 @@
+{
+  "name": "People",
+  "description": "A RESTAPI app that allows to manage a people.",
+  "keywords": ["node", "express", "angular", "MEAN", "mongodb", "REST", "API"],
+}

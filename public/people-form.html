@@ -1,0 +1,21 @@
+<div class="row" ng-hide="person._id">
+  <div class="col-md-6">
+      <h2>Create new person</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <p>
+      <label>Name (required)</label> 
+      <input id="name" class="form-control" type="text" ng-model="person.name" required> 
+    </p>
+    <p>
+      <label>Favorite city</label> 
+      <input id="name" class="form-control" type="text" ng-model="person.favCity" required> 
+    </p>
+    <p>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="savePeople(person)">Save</button>
+      <button style="margin-top:20px" class="btn btn-default" ng-click="back()">Back</button>
+    </p>
+  </div>
+</div>
